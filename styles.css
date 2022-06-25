@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0.377), hwb(0 100% 0% / 0.755)),url("images/background.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+   
+}
+
+.main {
+    background: linear-gradient(#ffffff, #c4eff4);
+    padding: 30px;
+    color: #22b8cf;
+}
+
+h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#borjan-img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 5px #22b8cf;
+    margin: 250px auto 15px auto;
+}
+
+#bday-age {
+    background: #22b8cf;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #22b8cf;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 500px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy-birthday.gif");
+}
+
+#gift-img-famous:hover {
+    background-image: url("images/famous.gif");
+}
+
+#gift-img-brilliant:hover {
+    background-image: url("images/brilliant.gif");
+}
+
+#gift-img-mom:hover {
+    background-image: url("images/mom.gif");
+}
+
+#gift-img-proud:hover {
+    background-image: url("images/proud.gif");
+}
+
+#last-title {
+    font-size: 32px;
+    color: #fa5252;
+}
+
